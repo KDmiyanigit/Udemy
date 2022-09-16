@@ -7,9 +7,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class Learning {
 
 
-        @GetMapping ("/")
-        public String index() {
-                return "Greetings from Spring Boot!";
-        }
+    @GetMapping("/")
+    public String index() {
+        return "Greetings from Spring Boot!";
+
+    }
 
 }
