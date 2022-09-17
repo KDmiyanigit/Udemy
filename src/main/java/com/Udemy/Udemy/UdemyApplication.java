@@ -16,6 +16,10 @@ public class UdemyApplication {
 		ControleStatment c = new ControleStatment();
 		c.isElse();
 		c.terNaryOperater();
+		c.ifElseIfElse();
+		c.nestedIf();
+		c.swichStatment();
+		c.doWhile();
 	}
 
 
